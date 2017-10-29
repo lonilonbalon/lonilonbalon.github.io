@@ -535,11 +535,11 @@ img {
     border-radius: 0;
     font-size: 14px;
     height: 40px;
-    position: relative;
+    position: absolute;
 }
 
 .hero_search_area form {
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
@@ -551,7 +551,7 @@ img {
     box-shadow: none;
     cursor: pointer;
     height: 40px;
-    position: relative;
+    position: absolute;
     top: 0;
     width: 40px;
     padding: 0;
