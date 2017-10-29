@@ -536,7 +536,6 @@ img {
     font-size: 14px;
     height: 40px;
     position: relative;
-    float: right;
 }
 
 .hero_search_area form {
@@ -553,7 +552,6 @@ img {
     cursor: pointer;
     height: 40px;
     position: relative;
-    float:right;
     top: 0;
     width: 40px;
     padding: 0;
