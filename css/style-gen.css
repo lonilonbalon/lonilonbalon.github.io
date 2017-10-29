@@ -536,7 +536,7 @@ img {
     font-size: 14px;
     height: 40px;
     position: relative;
-    right: 170px;
+    float: right;
 }
 
 .hero_search_area form {
