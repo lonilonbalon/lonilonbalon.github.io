@@ -552,7 +552,7 @@ img {
     box-shadow: none;
     cursor: pointer;
     height: 40px;
-    position: absolute;
+    position: relative;
     right: 170px;
     top: 0;
     width: 40px;
