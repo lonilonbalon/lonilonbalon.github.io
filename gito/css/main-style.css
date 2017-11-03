@@ -431,7 +431,6 @@ img {
     font-size: 18px;
     line-height: 40px;
     margin: 0;
-    text-transform: uppercase;
 }
 
 .section_heading.text-left {
@@ -440,7 +439,7 @@ img {
 
 .section_heading.white > h3,
 .section_heading.white > p {
-    color: #fff;
+    color: #34495e;
 }
 
 /* ------------------------
@@ -448,12 +447,13 @@ img {
 ------------------------ */
 
 .top_header_area {
-    background-color: #f6f6f6;
+    background-color: #34495e;
     height: 40px;
     width: 100%;
 }
 
 .main_header_area {
+    background-color: #34495e;
     height: 70px;
     width: 100%;
 }
@@ -510,8 +510,8 @@ img {
 }
 
 .logo_area > a {
-    border: 2px solid #009688;
-    color: #009688;
+    border: 2px solid #fff;
+    color: #fff;
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
@@ -520,12 +520,11 @@ img {
 }
 
 .hero_search_area input.form-control {
-    border: 2px solid #009688;
+    border: 2px solid #fff;
     border-radius: 0;
     font-size: 14px;
     height: 40px;
-    position: relative;
-    right: 50px;
+    position: ;
 }
 
 .hero_search_area form {
@@ -545,7 +544,6 @@ img {
     top: 0;
     width: 40px;
     padding: 0;
-    right: 50px;
 }
 
 .hero_search_area button:hover {
@@ -577,35 +575,44 @@ img {
     align-items: center;
     float: right;
     height: 70px;
+    
 }
 
 .wishlist a {
-    color: #009688;
-    display: block;
-    font-size: 36px;
+    color: #fff;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.messages a {
+    color: #fff;
+    display:inline-block;
+    font-size: 32px;
     line-height: 1;
 }
 
 .Balance a {
     color: #000000;
-    display: block;
-    font-size: 24px;
+    display: inline-block;
+    font-size: 30px;
     line-height: 1;
 }
 
 .cart > a {
-    color: #009688;
-    font-size: 36px;
+    color: #fff;
+    font-size: 32px;
+    display: inline-block;
     line-height: 1;
-    margin: 0 15px 0 7px;
+    margin: 0 8px 0 3px;
     position: relative;
     z-index: 1;
 }
 
 .cart_quantity {
-    background-color: #009688;
+    background-color: #fff;
     border-radius: 50%;
-    color: #fff;
+    color: #34495e;
     font-size: 12px;
     height: 20px;
     line-height: 20px;
@@ -637,7 +644,7 @@ img {
 .cart-list {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 3px;
+    border-radius: 1px;
     display: none;
     position: absolute;
     right: -44px;
@@ -703,11 +710,9 @@ img {
 
 .cart-list li span {
     font-size: 13px;
-    text-transform: uppercase;
 }
 
 .user_thumb {
-    border: 2px solid #009688;
     border-radius: 50%;
     height: 36px;
     width: 36px;
@@ -757,7 +762,6 @@ img {
 .mainmenu_area {
     height: 50px;
     position: relative;
-    
 }
 
 .navigation {
@@ -769,6 +773,7 @@ img {
     color: #000;
     height: 50px;
     padding: 15px;
+
 }
 
 .nav-dropdown > li > a {
@@ -1711,7 +1716,7 @@ img {
 .best_rated_onsale_top_sellares .nav-tabs .nav-item.show .nav-link,
 .best_rated_onsale_top_sellares .nav-tabs .nav-link.active {
     border-color: transparent;
-    color: #00bcd4;
+    color: #34495e;
 }
 
 .best_rated_onsale_top_sellares .nav-tabs .nav-link:focus,
@@ -2286,7 +2291,7 @@ img {
 }
 
 .home-2 .nav-search-button {
-    background-color: #fbfcfd;
+    background-color: transparent;
     height: 50px;
     line-height: 50px;
 }
@@ -2693,7 +2698,7 @@ img {
     left: 0;
     -webkit-box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #34495e;
 }
 
 .home-3.sticky .mainmenu_area {
@@ -2702,7 +2707,7 @@ img {
     width: auto;
     top: auto;
     left: auto;
-    background-color: #fff;
+    background-color: #34495e;
     z-index: auto;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4044,6 +4049,19 @@ select:focus {
 }
 
 .blog_sidebar .tag_section li {
+    display: inline-block;
+}
+
+.alert .tag_section a {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding: 5px 3px;
+}
+
+.alert .tag_section li {
     display: inline-block;
 }
 
