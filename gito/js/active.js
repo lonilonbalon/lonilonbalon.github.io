@@ -296,4 +296,6 @@
         new WOW().init();
     }
 
+    $('.main_header_area').stickThis();
+
 })(jQuery);
